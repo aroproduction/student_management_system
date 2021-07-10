@@ -131,8 +131,8 @@ def display_list():
 
     m1 = Menu(menu, tearoff=0)
     m1.add_command(label="Open in Excel", command=open_in_excel)
-    m1.add_separator()
-    m1.add_command(label="Exit", command=exit)
+    # m1.add_separator()
+    # m1.add_command(label="Exit", command=exit)
 
     menu.add_command(label="🠔", command=add_record)
     menu.add_cascade(label="Options", menu=m1)
@@ -294,8 +294,8 @@ test_l.place(x=0, y=0)
 m_menu = Menu(root)
 opt_m = Menu(m_menu, tearoff=0)
 opt_m.add_command(label="History", command=show_history)
-opt_m.add_separator()
-opt_m.add_command(label="Exit", command=exit)
+# opt_m.add_separator()
+# opt_m.add_command(label="Exit", command=exit)
 
 m_menu.add_cascade(label="Options", menu=opt_m)
 root.configure(menu=m_menu)
