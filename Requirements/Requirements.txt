@@ -1,0 +1,23 @@
+!! The Things You require to run this application !!
+
+This application is based on Python Programming Language.
+-- If you don't know what it is, no need to worry think it as a interpreter --
+
+1) First of all ""Python"" is required.
+        * To install python (install the latest version)
+            Windows: https://www.microsoft.com/store/productId/9P7QFQMJRFP7
+            (Convenient method. You can also install from python.org/downloads/)
+            Mac, Linux and other os' : https://www.python.org/downloads/
+
+        * Make sure while installing python "add to path" checkbox is checked
+
+-- Most of the features will work if you have completed the first step --
+
+2) To enable the Open with Excel feature:
+        run the Exl_Requirements.bat file in the Requirements folder.
+
+-- All The Requirements have been satisfied --
+
+(For help Open "README.md")
+
+
