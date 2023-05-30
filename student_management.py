@@ -100,7 +100,7 @@ def display_list():
             os.chdir("..")
         except ModuleNotFoundError:
             messagebox.showwarning("Requirements",
-                                   "To enable this feature run 'Exl_Requirements.bat'"
+                                   "To enable this feature run 'pip install -r requirements.txt'"
                                    )
 
     def help_stm():
